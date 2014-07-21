@@ -40,8 +40,6 @@
     
     BottomViewController *bottom1 = [[BottomViewController alloc] init];
     //bottom1.view.backgroundColor = [UIColor greenColor];
-    UIViewController *bottom2 = [[UIViewController alloc] init];
-    bottom2.view.backgroundColor = [UIColor yellowColor];
     
     
     AITabBarController *tbViewc;
@@ -56,7 +54,7 @@
     }
     
     tbViewc.primaryControllers = @[navFirst, second];
-    tbViewc.secondaryControllers = @[bottom1, bottom2];
+    tbViewc.secondaryControllers = @[bottom1];
     
     tbViewc.selectedViewController = navFirst;
     

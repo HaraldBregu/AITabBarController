@@ -28,7 +28,7 @@
 {
     AITab *tab = [[AITab alloc] init];
     tab.titleTab = @"Bottom";
-    
+    tab.tabIcon = [UIImage imageNamed:@"plus.png"];
     return tab;
 }
 
